@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<head>
+    <title>MJs ChatBot</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700,300">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400&family=Finger+Paint&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="card">
+        <div id="header">
+            <h1>Chat with<span id="mj">MJ</span></h1>
+        </div>
+        <div id="message-section">
+            <div class="message" id="bot">
+                <span id="bot-response">Hello.. I'm listening! Go on..</span>
+            </div>
+        </div>
+        <div id="input-section">
+            <input id="input" type="text" placeholder=" Type a message" autocomplete="off" autofocus="autofocus" />
+            <button class="send" onclick="sendMessage()">
+                <div class="circle">
+                    <i class="zmdi zmdi-mail-send"></i>
+                </div>
+            </button>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
